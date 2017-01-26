@@ -14,6 +14,16 @@
 		3B3B9D6A1E3A516000691998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3B9D681E3A516000691998 /* LaunchScreen.storyboard */; };
 		3B3B9D751E3A516000691998 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B9D741E3A516000691998 /* TestTests.swift */; };
 		3B3B9D801E3A516000691998 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B9D7F1E3A516000691998 /* TestUITests.swift */; };
+		3B3B9D8E1E3A518B00691998 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B9D8D1E3A518B00691998 /* MyViewController.swift */; };
+		3B76F60F1E3A5D03005715BA /* TabBarViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B76F60D1E3A5D03005715BA /* TabBarViewControllers.storyboard */; };
+		3B76F6111E3A5D36005715BA /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F6101E3A5D36005715BA /* FavoritesViewController.swift */; };
+		3B76F6131E3A5D3E005715BA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F6121E3A5D3E005715BA /* HistoryViewController.swift */; };
+		3B76F6151E3A62CD005715BA /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F6141E3A62CD005715BA /* MenuTableViewController.swift */; };
+		3B76F6231E3A8932005715BA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F6221E3A8932005715BA /* RootViewController.swift */; };
+		3B76F6251E3A8A81005715BA /* menuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B76F6241E3A8A81005715BA /* menuCell.xib */; };
+		3B76F6271E3A8E39005715BA /* menuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F6261E3A8E39005715BA /* menuOptionCell.swift */; };
+		3B76F6291E3A8F8C005715BA /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F6281E3A8F8C005715BA /* AccountsViewController.swift */; };
+		3B76F62B1E3A8F94005715BA /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B76F62A1E3A8F94005715BA /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		3B3B9D7B1E3A516000691998 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3B9D7F1E3A516000691998 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		3B3B9D811E3A516000691998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3B9D8D1E3A518B00691998 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		3B76F60E1E3A5D03005715BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabBarViewControllers.storyboard; sourceTree = "<group>"; };
+		3B76F6101E3A5D36005715BA /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		3B76F6121E3A5D3E005715BA /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3B76F6141E3A62CD005715BA /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		3B76F6221E3A8932005715BA /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3B76F6241E3A8A81005715BA /* menuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuCell.xib; sourceTree = "<group>"; };
+		3B76F6261E3A8E39005715BA /* menuOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuOptionCell.swift; sourceTree = "<group>"; };
+		3B76F6281E3A8F8C005715BA /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		3B76F62A1E3A8F94005715BA /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,16 @@
 				3B3B9D661E3A516000691998 /* Assets.xcassets */,
 				3B3B9D681E3A516000691998 /* LaunchScreen.storyboard */,
 				3B3B9D6B1E3A516000691998 /* Info.plist */,
+				3B3B9D8D1E3A518B00691998 /* MyViewController.swift */,
+				3B76F60D1E3A5D03005715BA /* TabBarViewControllers.storyboard */,
+				3B76F6101E3A5D36005715BA /* FavoritesViewController.swift */,
+				3B76F6121E3A5D3E005715BA /* HistoryViewController.swift */,
+				3B76F6141E3A62CD005715BA /* MenuTableViewController.swift */,
+				3B76F6221E3A8932005715BA /* RootViewController.swift */,
+				3B76F6241E3A8A81005715BA /* menuCell.xib */,
+				3B76F6261E3A8E39005715BA /* menuOptionCell.swift */,
+				3B76F6281E3A8F8C005715BA /* AccountsViewController.swift */,
+				3B76F62A1E3A8F94005715BA /* LogoutViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -193,6 +223,7 @@
 				TargetAttributes = {
 					3B3B9D5B1E3A516000691998 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					3B3B9D6F1E3A516000691998 = {
@@ -234,6 +265,8 @@
 			files = (
 				3B3B9D6A1E3A516000691998 /* LaunchScreen.storyboard in Resources */,
 				3B3B9D671E3A516000691998 /* Assets.xcassets in Resources */,
+				3B76F60F1E3A5D03005715BA /* TabBarViewControllers.storyboard in Resources */,
+				3B76F6251E3A8A81005715BA /* menuCell.xib in Resources */,
 				3B3B9D651E3A516000691998 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B3B9D621E3A516000691998 /* ViewController.swift in Sources */,
+				3B3B9D8E1E3A518B00691998 /* MyViewController.swift in Sources */,
+				3B76F6151E3A62CD005715BA /* MenuTableViewController.swift in Sources */,
+				3B76F6231E3A8932005715BA /* RootViewController.swift in Sources */,
+				3B76F6111E3A5D36005715BA /* FavoritesViewController.swift in Sources */,
+				3B76F6271E3A8E39005715BA /* menuOptionCell.swift in Sources */,
+				3B76F6131E3A5D3E005715BA /* HistoryViewController.swift in Sources */,
+				3B76F6291E3A8F8C005715BA /* AccountsViewController.swift in Sources */,
+				3B76F62B1E3A8F94005715BA /* LogoutViewController.swift in Sources */,
 				3B3B9D601E3A516000691998 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +351,14 @@
 				3B3B9D691E3A516000691998 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B76F60D1E3A5D03005715BA /* TabBarViewControllers.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B76F60E1E3A5D03005715BA /* Base */,
+			);
+			name = TabBarViewControllers.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +476,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +559,7 @@
 				3B3B9D861E3A516000691998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B3B9D871E3A516000691998 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +568,7 @@
 				3B3B9D891E3A516000691998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B3B9D8A1E3A516000691998 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +577,7 @@
 				3B3B9D8C1E3A516000691998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
