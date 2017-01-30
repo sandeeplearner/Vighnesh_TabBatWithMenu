@@ -44,6 +44,14 @@ class RootViewController: UIViewController {
             })
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "tabBarSegue" {
+            let vc = (segue.destination as! UINavigationController).viewControllers[0] as! ViewController
+            self.delegate = vc
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
